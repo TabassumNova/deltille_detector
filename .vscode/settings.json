@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "cmake.debugConfig": {
+        "args": [
+            "-t",
+            "${workspaceFolder}/test/ico_deltille.dsc",
+            "-f",
+            "${workspaceFolder}/test/p1.png",
+            "-o",
+            "${workspaceFolder}/test",
+            "-s"
+        ]
+  },
+}
+// {
+//     "other":"settings",
+//     "cmake.configureArgs": [
+//         "-t",
+//         "./test/ico_deltille.dsc",
+//         "-f",
+//         "./test/p1.png",
+//         "-o",
+//         "./test",
+//         "-s"
+//        ],
+//    }

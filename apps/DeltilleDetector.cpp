@@ -226,6 +226,6 @@ int main(int argc, char **argv) {
     ImageListDataSource data_source(move(files));
     RunDetector(&data_source, target_dsc_fn, output_dir, vm.count("save-images"));
   }
-
+  cout << "end" << endl;
   return 0;
 }
