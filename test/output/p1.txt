@@ -1,4 +1,4 @@
-filename: /home/shahad/Desktop/Nova/deltille/deltille_detector//test/p1.png
+filename: ./test/input/p1.png
 width: 647
 height: 535
 num_corners: 66

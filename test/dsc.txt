@@ -1,0 +1,11 @@
+0,12,12,10.0
+delTag25h7,1.5
+
+# board_id, cols-1, rows-1, polygon_edge_size
+# tag_family, tag_border
+
+0,0,0,0.0,0.0,0
+-1,1,0,10.0,0.0,0
+
+# {tag_id},{j_new},{i_new},{x},{y},0\n
+## '{tag_id},{j_new},{i_new},{3D_point_x},{3D_point_y},0\n' -> from bottom

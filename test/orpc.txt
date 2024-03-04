@@ -1,0 +1,3 @@
+4,0,1,105.70950317382812,461.8189697265625
+
+# board_id, corner_number, 1, corner_x, corner_y

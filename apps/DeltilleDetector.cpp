@@ -156,7 +156,7 @@ void RunDetector(DataSource *data_source, string target_dsc_fn,
       auto outpath =
           output_dir.empty() ? filepath.parent_path() : fs::path(output_dir);
       auto basename = filepath.stem();
-      auto out_orpc_fn = outpath / fs::change_extension(basename, ".orpc");
+      auto out_orpc_fn = outpath / fs::change_extension(basename, ".txt"); // changed to .txt format
 
       std::ofstream fo(out_orpc_fn.string());
       if (fo.is_open()) {
